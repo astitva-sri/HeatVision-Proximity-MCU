@@ -7,10 +7,16 @@ This project utilizes a Raspberry Pi Pico W microcontroller with an MLX90614 the
 Before running the project, ensure you have the following components:
 
 -Raspberry Pi Pico W microcontroller
+
 -MLX90614 thermal sensor
+
 -LED (optional) for visual indication
+
 -Wi-Fi network for internet connectivity
+
 -Firebase Realtime Database for storing timestamps
+
+-Firebase Storage to store images of the detected objects
 
 -Link to Counterpart app:
 ```
@@ -48,6 +54,19 @@ Connect the Pico to power.
 The script will automatically start monitoring the temperature.
 When the object temperature falls within the specified range, a timestamp will be pushed to Firebase Realtime Database, and the LED will blink.
 You can view the timestamps in your Firebase project's Realtime Database.
+
+## Reported Documents
+You may access the reported documents about the completed projects, involving all the information needed
+
+1. Project Report
+
+[HeatVision Proximity P-09 (Report File).pdf](https://github.com/user-attachments/files/15585575/HeatVision.Proximity.P-09.Report.File.pdf)
+
+
+2. Project Presentation
+
+[HeatVision Proximity P-09 (Project PPT).pptx](https://github.com/user-attachments/files/15585579/HeatVision.Proximity.P-09.Project.PPT.pptx)
+
 
 ## Troubleshooting
 If you encounter any issues with Wi-Fi connectivity or Firebase authentication, refer to the troubleshooting section in the README or review debug output for insights.
