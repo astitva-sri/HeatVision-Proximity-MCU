@@ -12,6 +12,11 @@ Before running the project, ensure you have the following components:
 -Wi-Fi network for internet connectivity
 -Firebase Realtime Database for storing timestamps
 
+-Link to Counterpart app:
+```
+https://github.com/astitva-sri/HeatVision-Proximity.git
+```
+
 ## Setup
 
 ### Connect Hardware:
